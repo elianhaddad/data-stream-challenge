@@ -1,0 +1,30 @@
+{
+  "name": "data-stream-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "javascript": "node --experimental-json-modules src/Exercises/javascript.js",
+    "dataStructure": "node --experimental-json-modules src/Exercises/dataStructure.js",
+    "testSolutions": "node --experimental-json-modules src/testSolutions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianhaddad/data-stream-challenge.git"
+  },
+  "author": "Elian Haddad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elianhaddad/data-stream-challenge/issues"
+  },
+  "homepage": "https://github.com/elianhaddad/data-stream-challenge#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
