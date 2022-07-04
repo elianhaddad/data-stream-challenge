@@ -1,4 +1,4 @@
-# Challenge for Dataxstream by Eian Haddad
+# Challenge for Dataxstream by Elian Haddad
 
 ## Commands
 
