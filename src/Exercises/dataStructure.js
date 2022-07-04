@@ -1,5 +1,6 @@
 /* eslint-disable import/extensions, no-console */
 import filter from 'lodash/filter.js';
+import isEmpty from 'lodash/isEmpty.js';
 import join from 'lodash/join.js';
 import size from 'lodash/size.js';
 import split from 'lodash/split.js';
@@ -48,7 +49,7 @@ export const formatted = (str, n) => {
     nCount += 1;
   }
 
-  result.push(join(group, ''));
+  if (!isEmpty(group)) result.push(join(group, ''));
 
   return join(result, '-');
 };
