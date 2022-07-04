@@ -58,8 +58,7 @@ export const findPost = async () => {
 };
 
 export const isIdentical = (firstRoot, secondRoot) => {
-  if (firstRoot == null && secondRoot == null) return true;
-
+  if (!firstRoot && !secondRoot) return true;
   if (firstRoot && !secondRoot) return false;
   if (!firstRoot && secondRoot) return false;
 
